@@ -59,4 +59,5 @@ fffff805`3b8833d1 c3              ret
 ```
 
 nt!SeCiCallbacks+0x20 -> Address of CiValidateImageHeader
+
 nt!SeCiCallbacks+0x28 -> Address of CiValidateImageData 
