@@ -83,6 +83,5 @@ EXTERN_C NTSTATUS DriverEntry(PDRIVER_OBJECT DriverObject, PUNICODE_STRING Regis
         return status;
     }
     KdPrint(("[DDSE] Disable DSE Success!\n"));
-
-	return status;
+    return status;
 }
