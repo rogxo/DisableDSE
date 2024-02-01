@@ -23,7 +23,7 @@ nt!KiStartSystemThread+0x2a
 
 ### SeValidateImageHeader and SeValidateImageData
 
-```cpp
+```assembly
 nt!SeValidateImageHeader:
 fffff805`3b882f20 488bc4          mov     rax,rsp
 fffff805`3b882f23 48895808        mov     qword ptr [rax+8],rbx
